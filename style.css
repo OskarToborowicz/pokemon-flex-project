@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
 }
 .nav ul {
@@ -37,7 +37,8 @@ body {
   justify-content: center;
   text-align: center;
   align-content: center;
-  white-space: nowrap;
+  flex-wrap: wrap;
+  gap: 10px 20px;
   margin: 0;
   padding: 0;
   width: 100%;
