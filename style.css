@@ -77,6 +77,10 @@ body {
   width: 25%;
   height: auto;
 }
+.footer {
+  display: flex;
+  font-size: 0.75rem;
+}
 @media (max-width: 600px) {
   .portfolio h1 {
     font-size: 1.5rem;
