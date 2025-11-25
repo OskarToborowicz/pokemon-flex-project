@@ -62,15 +62,20 @@ body {
 .mission h1 {
   font-size: 5.25rem;
 }
+
 .portfolio {
   display: flex;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-items: center;
   align-items: center;
 }
-.portfolio h1 {
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-size: 5.25rem;
+  width: 100%;
 }
 .portfolio-image {
   align-self: flex-start;
@@ -90,5 +95,15 @@ body {
   }
   .company-logo h1 {
     font-size: 2rem;
+  }
+  .portfolio {
+    flex-direction: column;
+  }
+  .portfolio-text {
+    font-size: 1.5rem;
+  }
+  .portfolio-image {
+    width: 75%;
+    margin-left: 10%;
   }
 }
