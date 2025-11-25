@@ -67,7 +67,7 @@ body {
   display: flex;
   text-align: center;
   flex-direction: row;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 .portfolio-text {
@@ -78,7 +78,6 @@ body {
   width: 100%;
 }
 .portfolio-image {
-  align-self: flex-start;
   width: 25%;
   height: auto;
 }
@@ -104,6 +103,5 @@ body {
   }
   .portfolio-image {
     width: 75%;
-    margin-left: 10%;
   }
 }
