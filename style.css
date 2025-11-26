@@ -1,7 +1,12 @@
+/* Global  variables */
+:root {
+  --color-pokemon: hsl(59 100% 89.1%);
+}
+
 body {
   font-size: 22px;
   font-family: "Roboto Slab";
-  background-color: hsl(59 100% 89.1%);
+  background-color: var(--color-pokemon);
   margin: 0;
   padding: 0;
 }
@@ -50,7 +55,7 @@ body {
   min-width: 0;
   min-width: 30%;
 }
-.mission {
+#mission {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -59,18 +64,18 @@ body {
   max-width: 800px;
   background: url();
 }
-.mission h1 {
+#mission h1 {
   font-size: 5.25rem;
 }
 
-.portfolio {
+#portfolio {
   display: flex;
   text-align: center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.portfolio-text {
+#portfolio-text {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -103,25 +108,26 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  row-gap: 200px;
 }
 .team-image {
   width: 250px;
   height: 400px;
 }
 @media (max-width: 600px) {
-  .portfolio h1 {
+  #portfolio h1 {
     font-size: 1.5rem;
   }
-  .mission h1 {
+  #mission h1 {
     font-size: 1.5rem;
   }
   .company-logo h1 {
     font-size: 2rem;
   }
-  .portfolio {
+  #portfolio {
     flex-direction: column;
   }
-  .portfolio-text {
+  #portfolio-text {
     font-size: 1.5rem;
   }
   .portfolio-image {
